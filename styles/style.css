@@ -6,6 +6,8 @@ body {
 /* nav related style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text-primary {
@@ -32,6 +34,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav a {
