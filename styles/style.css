@@ -8,6 +8,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 210px;
 }
 
 .text-primary {
@@ -19,9 +20,9 @@ nav {
     background: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 20px;
+    font-size: 25x;
     font-weight: 700;
-    padding: 16px 34px;
+    padding: 15px 34px;
 
 
 }
@@ -39,7 +40,7 @@ nav>ul {
 
 nav a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: #474747;
 
 }
@@ -48,4 +49,16 @@ nav li {
     list-style: none;
     margin-right: 50px;
 
+}
+/* head style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+} 
+.banner .profile-pic{
+    width: 300px
 }
