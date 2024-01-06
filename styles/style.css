@@ -1,6 +1,8 @@
 /* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .section-title {
@@ -162,9 +164,39 @@ main section {
 }
 
 /* resume related style */
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
 
 .resume-coloum-title {
     color: var #474747;
     font-size: 30px;
     font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-item-institute,.resume-item-description{
+    color: #757575;
+}
+.resume-item-institute{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px ;
+}
+.resume-item-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+    
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
