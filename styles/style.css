@@ -3,8 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-title {
-    color: var(--Dark-01, #181818);
+.section-title {
+    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -75,7 +75,7 @@ nav li {
 }
 
 .banner .profile-pic {
-    width: 500px
+    width: 500px;
 }
 
 .banner-greeting {
@@ -102,7 +102,7 @@ nav li {
 }
 
 .banner-content {
-    max-width: 585px;
+    max-width: 500px;
 }
 
 /* main section styles */
@@ -115,11 +115,10 @@ main{
     border-radius: 10px;
     background: #FFF8F3;
     padding: 150px;
-    /* align-items: center; */
     margin: 120px 0;
 }
 
-.about-description {
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -127,6 +126,12 @@ main{
     font-weight: 400;
 }
 .about-info-container{
-   
-    
+   display: flex;
+   justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#What-i-do-description{
+    margin: 30px 150px;
 }
