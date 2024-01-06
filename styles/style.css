@@ -106,10 +106,12 @@ nav li {
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
 .about {
-    /* width: 900px;
-    height: 250px; */
     border-radius: 10px;
     background: #FFF8F3;
     padding: 150px;
@@ -123,4 +125,8 @@ nav li {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+}
+.about-info-container{
+   
+    
 }
