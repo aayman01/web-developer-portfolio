@@ -141,9 +141,13 @@ main section {
 .about-info {
     text-align: center;
 }
+/* what i do section */
 
 #What-i-do-description {
-    margin: 30px 150px;
+    padding: 30px 150px;
+}
+.info-description{
+    text-align: center;
 }
 
 /* skill related style */
@@ -161,6 +165,7 @@ main section {
 
 .skill-description {
     color: #757575;
+
 }
 
 /* resume related style */
@@ -179,7 +184,7 @@ main section {
 }
 .resume-container{
     display: flex;
-    gap: 70px;
+    gap: 50px;
 }
 .resume-item-institute,.resume-item-description{
     color: #757575;
@@ -201,6 +206,7 @@ main section {
     margin-top: 50px;
 }
 /* Footer style */
+
 footer{
     display: flex;
     background-color: #FFF8F3;
@@ -230,7 +236,46 @@ footer{
     
 }
 textarea{
-    width: 461px;
+    width: 50%;
     height: 180px;
     resize: none;
+}
+.hide{
+    display: none;
+}
+/* responsive style */
+@media screen and (max-width: 576px) {
+    main section{
+        margin: 15px;
+    }
+    .skill-container,.resume-container, footer{
+        flex-direction: column;
+    }
+    #What-i-do-description{
+        padding : 10px
+
+    }
+    footer{
+        padding: 10px;
+    }
+    .footer-coloum{
+        width: 100%;
+    }
+    .text , .email{
+        padding: 5px 150px 18px 10px;
+    }
+    .about{
+        padding: 10px;
+    }
+    .about-info-container{
+        flex-direction: column;
+
+    }
+    .info-description{
+        text-align: center;
+    }
+    .section-description{
+        text-align: justify;
+    }
+
 }
